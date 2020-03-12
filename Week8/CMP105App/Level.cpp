@@ -12,12 +12,14 @@ Level::Level(sf::RenderWindow* hwnd, Input* in)
 	Ball[0].setPosition(50, 400);
 	Ball[0].setCollisionBox(sf::FloatRect(0, 0, 30, 30));
 
+	
 	texture.loadFromFile("gfx/Beach_Ball.png");
 	Ball[1].setTexture(&texture);
 	Ball[1].setSize(sf::Vector2f(50, 50));
 	Ball[1].setPosition(1000, 400);
 	Ball[1].setCollisionBox(sf::FloatRect(0, 0, 30, 30));
 
+	
 }
 
 Level::~Level()

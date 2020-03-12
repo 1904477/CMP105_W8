@@ -31,5 +31,5 @@ private:
 
 	sf::Texture texture;
 	GameObject Ball[2];
-	
+	GameObject Sonic;
 };
